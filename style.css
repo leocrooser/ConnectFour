@@ -1,38 +1,25 @@
 td {
-  border: 2px solid blue;
+  border: 1px solid linear-gradient(to right, yellow, red);
+
+  background: white;
+
+
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
-  width: 90px;
-  height: 90px;
-
-
-}
-
-table {
-  border: 4px solid green;
-
 }
 
 td:hover {
-  background: orange;
+  background: yellow;
 }
 
-body {
-  display: flex;
-  justify-content:center;
-  height: 100vh;
-  align-items:center;
-}
-
-.checker{
-border-radius: 50%;
-width: 10px;
-height: 10px;
-}
-.red{
-  background-color: red;
+table {
+  border: 5px solid linear-gradient(to left, blue , green);
+  background: linear-gradient(to right, blue , green);
 
 }
-.black{
-  background-color: black;
 
+h1 {
+    color: red;
+    text-decoration: underline;
 }
